@@ -8,24 +8,30 @@ export default function Section1() {
   return (
     <section className='bg-gradient-to-b from-[#C89EB8] via-[#C49DB9] via-[#B99BBC] to-[#B49ABE] min-h-screen overflow-x-auto'>
         <div className='max relative '>
-          <div className='absolute z-10 left-[345px] top-[-43px] w-[1231px] h-[412px]'>
-            <div className="lobster-regular text-[500px] align-text-top text-[#FFFFFF] ">NEKO</div>
-          </div>
-          <div className='absolute top-[430px] left-[590px]'>
+          <div className="absolute z-10 left-[330px] top-[43px] w-[1231px] h-[412px] flex items-center justify-center">
+  <div className="lobster-regular text-[500px] leading-none text-[#FFFFFF]">
+    NEKO
+  </div>
+</div>
+
+          <div className='absolute top-[330px] left-[590px]'>
             <img src={P1} alt="pig" className='w-[626.67px] h-[650px]'/>
           </div>
-          <div className='absolute w-[672px] h-[184px] top-[555px] left-[1208px]'>
-            <h1 className='madimi-one-regular text-[64px] text-[#FFFFFF]'>Neko: Embrace the bold,
+          <div className='absolute w-[672px] h-[184px] top-[535px] left-[1208px]'>
+            <h1 className='madimi-one-regular text-[64px] leading-[73px] text-[#FFFFFF]'>Neko: Embrace the bold,
 live powerful, live the Neko way.</h1>
           </div>
-          <div className='absolute top-[777px] left-[1317px] mt-[38px]'>
+          <div className='absolute top-[777px] left-[1317px]'>
             <Button/>
           </div>
-          <div className='absolute top-[917px] left-[133px]'>
+          <div className='absolute top-[817px] left-[180px]'>
             <Social/>
           </div>
-          <div className='absolute top-[1050px]'>
-            <Label text="NEKO THE FIRST 3D AVATAR PROJECT ON THE BLOCKCHAIN"/>
+          <div className='absolute top-[933px]'>
+            <Label 
+              text1="NEKO THE FIRST 3D AVATAR PROJECT ON THE BLOCKCHAIN"
+              text2="NEKO THE FIRST 3D AVATAR PROJECT ON THE BLOCKCHAIN"
+            />
           </div>
         </div>
     </section>
