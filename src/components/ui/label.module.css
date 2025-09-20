@@ -1,0 +1,12 @@
+@keyframes slideLeftRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-500px);
+  }
+}
+
+.slideContainer {
+  animation: slideLeftRight 15s infinite ease-in-out;
+}

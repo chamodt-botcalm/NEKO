@@ -29,8 +29,10 @@ live powerful, live the Neko way.</h1>
           </div>
           <div className='absolute top-[933px]'>
             <Label 
-              text1="NEKO THE FIRST 3D AVATAR PROJECT ON THE BLOCKCHAIN"
-              text2="NEKO THE FIRST 3D AVATAR PROJECT ON THE BLOCKCHAIN"
+              text1="LIVE THE NEKO LIFE"
+              text2="LIVE THE NEKO LIFE"
+              text3="LIVE THE NEKO LIFE"
+              text4="LIVE THE NEKO LIFE"
             />
           </div>
         </div>
